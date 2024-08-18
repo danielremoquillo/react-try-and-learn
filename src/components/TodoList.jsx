@@ -89,7 +89,7 @@ const TodoList = () => {
     if (!submittedTodoList || submittedTodoList.length === 0) {
       return (
         <div className="w-full flex flex-col justify-center items-center text-md md:text-lg font-medium text-primary-50 py-12">
-          <EmptyIcon className="size-80 md:size-96" />
+          <EmptyIcon className="size-64 md:size-96" />
           <span className="mt-4">There is no active task yet.</span>
         </div>
       );
@@ -119,7 +119,7 @@ const TodoList = () => {
     if (!doneTodoList || doneTodoList.length === 0) {
       return (
         <div className="w-full flex flex-col justify-center items-center text-md md:text-lg font-medium text-primary-50 py-12">
-          <EmptyIcon className="size-80 md:size-96" />
+          <EmptyIcon className="size-64 md:size-96" />
           <span className="mt-4">There is no completed task yet.</span>
         </div>
       );
@@ -151,7 +151,7 @@ const TodoList = () => {
     ) {
       return (
         <div className="w-full flex flex-col justify-center items-center text-md md:text-lg font-medium text-primary-50 py-12">
-          <EmptyIcon className="size-80 md:size-96" />
+          <EmptyIcon className="size-64 md:size-96" />
           <span className="mt-4">There is no tasks yet.</span>
         </div>
       );

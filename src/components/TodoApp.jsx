@@ -48,8 +48,8 @@ const Header = ({ projectName, projectTitle }) => {
 
 const TodoApp = ({ projectName, projectTitle, children }) => {
   return (
-    <div className="h-screen flex flex-col justify-start items-center py-12">
-      <div className="flex flex-col justify-start max-w-3xl min-w-[28rem] md:min-w-[32rem] lg:min-w-[40rem]">
+    <div className="h-screen flex flex-col justify-start items-center py-4 md:py-12">
+      <div className="flex flex-col justify-start max-w-3xl min-w-[16rem] md:min-w-[24rem] lg:min-w-[40rem]">
         <Header projectName={projectName} projectTitle={projectTitle} />
         {children}
       </div>
