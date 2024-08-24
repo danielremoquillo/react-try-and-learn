@@ -21,8 +21,8 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/danielremoquillo/react-try-and-learn-todo.git
-   cd react-todo-list
+   git clone https://github.com/danielremoquillo/todo-list-react.git
+   cd todo-list-react
    ```
 
 2. **Install Dependencies:**
